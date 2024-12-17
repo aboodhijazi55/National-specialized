@@ -1,0 +1,11 @@
+@media (width<530px) {
+
+    .container>a.navbar-brand {
+        font-size: 17px !important;
+    }
+}
+
+.navbar.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
