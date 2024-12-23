@@ -14,11 +14,11 @@ function Header() {
     };
     window.addEventListener("scroll", handleScroll)
     return <>
-        <div onScroll={handleScroll} className={scrollPosition ? "navbar navbar-expand-md bg-dark navbar-dark  fixed-top" :
-            "navbar navbar-expand-md bg-none  fixed-top navbar-scrolled"}>
+        <div onScroll={handleScroll} className={scrollPosition ? "navbar navbar-expand-md mb-1 bg-dark navbar-dark text-white fixed-top" :
+            "navbar navbar-expand-md bg-none navbar-dark mb-1 fixed-top navbar-scrolled"}>
             <div className="container">
                 <a href="#x" className="navbar-brand">NATIONAL SPECIALIZED LABORATORY</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
+                <button className="navbar-toggler header-button" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="mainmenu">

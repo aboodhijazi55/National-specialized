@@ -1,0 +1,35 @@
+.recent-listing {
+    margin-top: 80px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid #eee;
+}
+
+.recent-listing .section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.container .img-carousel {
+    max-width: 80vw;
+}
+
+.carousel-item img {
+    height: 450px;
+}
+
+.our-client {
+    margin: 40px 0 30px 0;
+
+}
+
+@media (width < 991px) {
+    .container .img-carousel {
+        max-width: 80vw;
+    }
+
+    .carousel-item img {
+        height: 250px !important;
+    }
+}

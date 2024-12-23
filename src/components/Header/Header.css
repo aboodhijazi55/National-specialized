@@ -1,9 +1,21 @@
 @media (width<530px) {
 
     .container>a.navbar-brand {
-        font-size: 17px !important;
+        font-size: 13px !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 0.9em;
+    }
+
+    .header-button {
+        margin: 0;
     }
 }
+
+/* #root>div.navbar.navbar-expand-md.bg-none.mb-1.fixed-top.navbar-scrolled>div>a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
 
 .navbar.navbar-scrolled {
     background-color: rgba(0, 0, 0, 0.15);
