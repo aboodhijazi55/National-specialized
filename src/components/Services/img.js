@@ -7,3 +7,37 @@ export { default as fuleImg } from "../../assets/img/1000_F_91930020_IdTgyV4jZrR
 export { default as hydImg } from "../../assets/img/1000_F_271922785_g3lO6wDwIEMExHsso2VDCsqPCmLzzM8V.jpg"
 export { default as fillImg } from "../../assets/img/images.jpg"
 export { default as aboutImg } from "../../assets/img/NSL (14).png"
+
+export { default as img1 } from "../../assets/img/client-logo/ABB.png"
+export { default as img2 } from "../../assets/img/client-logo/AES.png"
+export { default as img3 } from "../../assets/img/client-logo/AIH.png"
+export { default as img4 } from "../../assets/img/client-logo/H.png"
+export { default as img5 } from "../../assets/img/client-logo/ISASTUR.png"
+export { default as img6 } from "../../assets/img/client-logo/NCC.jpg"
+export { default as img7 } from "../../assets/img/client-logo/NCI.jpg"
+export { default as img8 } from "../../assets/img/client-logo/QCC.jpg"
+export { default as img9 } from "../../assets/img/client-logo/SEPCO.png"
+export { default as img10 } from "../../assets/img/client-logo/SPM&O.png"
+export { default as img11 } from "../../assets/img/client-logo/astraco.png"
+export { default as img12 } from "../../assets/img/client-logo/daewoo.png"
+export { default as img13 } from "../../assets/img/client-logo/iedco.jpg"
+export { default as img14 } from "../../assets/img/client-logo/ijcsmall.jpg"
+export { default as img15 } from "../../assets/img/client-logo/jmc.jpg"
+export { default as img16 } from "../../assets/img/client-logo/kospo.png"
+export { default as img17 } from "../../assets/img/client-logo/lafarge.jpg"
+export { default as img18 } from "../../assets/img/client-logo/lotte.jpg"
+export { default as img19 } from "../../assets/img/client-logo/mag.png"
+export { default as img20 } from "../../assets/img/client-logo/manaseer.png"
+
+
+export { default as phone } from "../../assets/img/phone-rounded-svgrepo-com (1).svg"
+export { default as fax } from "../../assets/img/fax-free-5-svgrepo-com.svg"
+export { default as email } from "../../assets/img/email-open-svgrepo-com.svg"
+
+
+
+export { default as lab1 } from "../../assets/img/lab/IMG_20241223_082434_787.jpg"
+export { default as lab2 } from "../../assets/img/lab/IMG_20241223_082435_255.jpg"
+export { default as lab3 } from "../../assets/img/lab/IMG_20241223_082435_277.jpg"
+export { default as lab4 } from "../../assets/img/lab/IMG_20241223_082435_317.jpg"
+export { default as lab5 } from "../../assets/img/lab/IMG_20241223_082513_806.jpg"

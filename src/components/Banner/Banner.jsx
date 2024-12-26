@@ -11,7 +11,7 @@ function Banner() {
                     <div class="col-lg-12">
                         <div class="top-text header-text">
                             <h1>NSL</h1>
-                            <h6>The Only Independent Laboratory In Jordan</h6>
+                            <h6>The <span>First </span> and Only Independent Laboratory In Jordan</h6>
                         </div>
                     </div>
                 </div>

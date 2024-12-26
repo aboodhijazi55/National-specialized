@@ -5,9 +5,9 @@ function Services() {
 
     const [activeIndex, setActiveIndex] = useState(0);
     const p = useRef()
-    const handleTabClick = (index) => {
+    function handleTabClick(index) {
         setActiveIndex(index);
-        p.current.scrollIntoView({ behavior: "smooth", block: "center" })
+        p.current.scrollIntoView({ behavior: "smooth", block: "center" });
     };
 
     const content = [
@@ -61,7 +61,7 @@ function Services() {
                             <div className="naccs">
                                 <div className="grid">
                                     <div className="row">
-                                        <div className="col-lg-3">
+                                        <div className="col-lg-4">
                                             <div className="menu">
                                                 {content.map((item, index) => (
                                                     <div
@@ -77,8 +77,8 @@ function Services() {
                                                 ))}
                                             </div>
                                         </div>
-                                        <div className="col-lg-9 align-self-center">
-                                            <ul className="nacc" ref={p}>
+                                        <div className="col-lg-8 align-self-center" ref={p}>
+                                            <ul className="nacc" >
                                                 {content.map((item, index) => (
                                                     <li
                                                         key={index}
