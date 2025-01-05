@@ -1,0 +1,196 @@
+.test-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 290px 0px 180px 0px;
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.bac-test {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.test-banner .top-text {
+    text-align: center;
+}
+
+.test-banner .top-text h6 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+    /* text-transform: uppercase; */
+}
+
+.test-banner .top-text h6 span {
+    font-size: 40px;
+    font-family: "Italianno", serif;
+}
+
+.test-banner .top-text h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/* for content  */
+.row>.container>h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eee;
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container>.h6 {
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+    font-family: "Quicksand", serif;
+    font-size: 15px;
+}
+
+h6>span {
+    /* font-weight: bold; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.float-section>.h5 {
+    font-family: "Ysabeau SC", serif;
+    padding-bottom: 10px;
+}
+
+.float-section>p {
+    font-weight: 100;
+}
+
+h5>svg {
+    margin-right: 15px;
+}
+
+h5 {
+    font-family: "Quicksand", serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+h5>span {
+    font-family: "Quicksand", serif;
+    font-weight: 300;
+}
+
+.container.test {
+    display: flex;
+    padding: 40px 50px;
+}
+
+.float-section {
+    margin: 20px 0;
+}
+
+.d {
+    max-height: 250px;
+    border-radius: 7px;
+}
+
+.device1 {
+    float: right;
+    margin-left: 50px;
+}
+
+.device2 {
+    float: left;
+    margin-right: 50px;
+}
+
+.device3 {
+    float: right;
+    margin-left: 50px;
+}
+
+.device4 {
+    float: left;
+    margin-right: 50px;
+}
+
+
+@media (width<768px) {
+    .row>.container>h1 {
+        font-size: 1.5rem;
+    }
+
+    .float-section>.h5 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    .container.test {
+        display: flex;
+        padding: 40px 50px;
+        justify-content: center;
+    }
+
+    .d {
+        max-height: 150px;
+
+    }
+}
+
+@media (width<627px) {
+    .d {
+        float: none;
+    }
+
+    .device1,
+    .device2,
+    .device3,
+    .device4 {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .float-section {
+        text-align: center;
+    }
+
+    .h5 {
+        text-align: center;
+    }
+
+    h5 {
+        text-align: left;
+    }
+}
+
+.img-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.img-section>img {
+    border-radius: 12px;
+    margin: 10px;
+    height: 230px;
+}

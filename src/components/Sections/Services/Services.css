@@ -112,11 +112,17 @@
 
 .popular-categories .nacc .thumb img {
     border-radius: 7px;
-    max-width: 26vw;
+    max-width: 23vw;
 }
 
 button {
     margin-left: 27px;
+
+}
+
+.link-light:hover {
+    color: black !important;
+
 }
 
 .popular-categories .nacc .thumb .left-text .main-white-button a {
@@ -132,6 +138,10 @@ button {
         display: flex;
         justify-content: center;
         align-items: center !important;
+    }
+
+    .popular-categories .nacc .thumb .left-text p {
+        padding-right: 30px;
     }
 
     .popular-categories .nacc .thumb img {

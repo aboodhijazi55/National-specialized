@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Banner.css"
-import backgrounfVideo from "../../assets/video/vecteezy_young-scientists-conducting-research-investigations-in-a_41264726.MOV"
+import backgrounfVideo from "../../../assets/video/vecteezy_young-scientists-conducting-research-investigations-in-a_41264726.MOV"
 
 function Banner() {
     return <>
