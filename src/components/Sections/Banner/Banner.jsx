@@ -5,7 +5,7 @@ import backgrounfVideo from "../../../assets/video/vecteezy_young-scientists-con
 function Banner() {
     return <>
         <video src={backgrounfVideo} autoPlay loop muted />
-        <div class="main-banner">
+        <div class="main-banner" id='home'>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

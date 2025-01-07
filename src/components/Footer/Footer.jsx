@@ -8,7 +8,7 @@ function Footer() {
     const date = new Date().getFullYear()
 
 
-    return <> <footer>
+    return <> <footer id='footer'>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">

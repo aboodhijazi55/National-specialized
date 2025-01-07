@@ -43,7 +43,7 @@ function AboutUs() {
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                    <button class="carousel-control-next" id='client' type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
@@ -54,7 +54,7 @@ function AboutUs() {
                     </div>
                 </div>
             </div>
-            <div className="container ">
+            <div className="container " >
                 <div className="section-heading logo-section">
                     <h2>Our Client</h2>
                 </div>

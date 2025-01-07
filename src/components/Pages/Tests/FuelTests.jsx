@@ -43,13 +43,17 @@ function FuelTests() {
                         Acidity <span>(ASTM D974 ,IEC 62021)</span>
                     </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Moisture in Oil  <span>(ASTM D1533)</span>
+                        Water by distillation  <span>(ASTM D95)</span>
+                    </h5>
+
+                    <h5><FontAwesomeIcon icon={faFlask} />
+                        Ash content <span>(ASTM D482)</span>
                     </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Rotating Pressure Vessel Oxidation Test(PRVOT) <span>(ASTM D2272)</span>
+                        Calorific value Net <span>(ASTM D240)</span>
                     </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Copper Strip Corrosion <span>(ASTM D130)</span>
+                        Sulfur Content <span>(ASTM D4294)</span>
                     </h5>
 
                 </div>
@@ -81,15 +85,7 @@ function FuelTests() {
                         Pour Point <span>(ASTM D97)</span>
                     </h5>
 
-                    <h5><FontAwesomeIcon icon={faFlask} />
-                        Particles counter <span>(ISO 4406)</span>
-                    </h5>
-                    <h5><FontAwesomeIcon icon={faFlask} />
-                        Foaming <span>(ASTM D892)</span>
-                    </h5>
-                    <h5><FontAwesomeIcon icon={faFlask} />
-                        Air Release  <span>(ASTM D3427)</span>
-                    </h5>
+
 
                 </div>
                 <div class=" img-section col-12">

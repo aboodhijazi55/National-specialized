@@ -39,17 +39,25 @@ function LubeTests() {
                     <h5 className='h5'>Chemical Proparaties</h5>
 
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Acidity <span>(ASTM D974 ,IEC 62021)</span>
+                        Oxidation Stability- Acidity <span>(ASTM D943)</span>
                     </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Moisture in Oil  <span>(ASTM D1533)</span>
+                        Total Base Number- TBN <span>(ASTM D2896)</span>
                     </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Rotating Pressure Vessel Oxidation Test(PRVOT) <span>(ASTM D2272)</span>
+                        Water Content  <span>(ASTM D1533)</span>
                     </h5>
+                    <h5><FontAwesomeIcon icon={faFlask} />
+                        Neutralization NO.  <span>(ASTM D974)</span>
+                    </h5>
+
                     <h5><FontAwesomeIcon icon={faFlask} />
                         Copper Strip Corrosion <span>(ASTM D130)</span>
                     </h5>
+                    <h5><FontAwesomeIcon icon={faFlask} />
+                        Varnish MPC  <span>(ASTM D7843)</span>
+                    </h5>
+
 
                 </div>
 
@@ -69,7 +77,9 @@ function LubeTests() {
                     <h5><FontAwesomeIcon icon={faFlask} />
                         Flash Point <span>(ASTM D93)</span>
                     </h5>
-
+                    <h5><FontAwesomeIcon icon={faFlask} />
+                        Color  <span>(ASTM D1500)</span>
+                    </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
                         Density<span>(ASTM D1298 , ISO 12185)</span>
                     </h5>
@@ -81,7 +91,7 @@ function LubeTests() {
                     </h5>
 
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Particles counter <span>(ISO 4406)</span>
+                        Purity <span>(ISO 5884)</span>
                     </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
                         Foaming <span>(ASTM D892)</span>

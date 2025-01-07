@@ -39,14 +39,14 @@ function TRTests(props) {
                     <h5 className='h5'>Chemical Proparaties</h5>
 
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Acidity <span>(ASTM D974 ,IEC 62021)</span>
+                        Acidity, TAN <span>(ASTM D974 ,IEC 62021)</span>
                     </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Moisture in Oil  <span>(ASTM D1533)</span>
+                        Moisture -Karl Fischer  <span>(ASTM D1533)</span>
                     </h5>
-                    <h5><FontAwesomeIcon icon={faFlask} />
+                    {/* <h5><FontAwesomeIcon icon={faFlask} />
                         Rotating Pressure Vessel Oxidation Test(PRVOT) <span>(ASTM D2272)</span>
-                    </h5>
+                    </h5> */}
                     <h5><FontAwesomeIcon icon={faFlask} />
                         Degree of Polymerization of cellulose <span>(ASTM D4243)</span>
                     </h5>
@@ -54,8 +54,12 @@ function TRTests(props) {
                         Corrosive Sulfur <span>(IEC 62535)</span>
                     </h5>
                     <h5><FontAwesomeIcon icon={faFlask} />
-                        Copper Strip Corrosion <span>(ASTM D130)</span>
+                        Inhibitors Content -m/m % <span>(IEC 60666)</span>
                     </h5>
+                    <h5><FontAwesomeIcon icon={faFlask} />
+                        Furan Analysis  <span>(ASTM D 5837)</span>
+                    </h5>
+
 
                 </div>
 
@@ -93,15 +97,7 @@ function TRTests(props) {
                     <h5><FontAwesomeIcon icon={faFlask} />
                         Particles counter <span>(ISO 4406)</span>
                     </h5>
-                    <h5><FontAwesomeIcon icon={faFlask} />
-                        Foaming <span>(ASTM D892)</span>
-                    </h5>
-                    <h5><FontAwesomeIcon icon={faFlask} />
-                        Rust Prevntion  <span>(ASTM D665)</span>
-                    </h5>
-                    <h5><FontAwesomeIcon icon={faFlask} />
-                        Air Release <span>(ASTM D3427)</span>
-                    </h5>
+
                 </div>
                 <div class="col-lg-12 float-section">
 
