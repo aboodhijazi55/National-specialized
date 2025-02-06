@@ -19,6 +19,7 @@ function Home() {
 
         // Scroll when the component is mounted or the hash changes
         setTimeout(scrollToSection, 0);
+
     }, [location]);
     return (
         <>

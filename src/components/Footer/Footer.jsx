@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css"
 import nsl from "../../assets/img/logo.png"
 import Email from './Email'
-import { fax, email, phone } from "../Sections/Services/img"
+import { email, phone } from "../Sections/Services/img"
 function Footer() {
 
     const date = new Date().getFullYear()
@@ -20,7 +20,7 @@ function Footer() {
                             <div class="col-lg-12">
                                 <ul className='ul'>
                                     <li><img className="img" src={phone} alt="" />  <a href="#">+ 962 6 420 2732</a></li>
-                                    <li><img className="img" src={fax} alt="" />  <a href="#">+ 962 6 420 2735</a></li>
+                                    <li><img className="img" src={phone} alt="" />  <a href="#">+ 962 79 1931336</a></li>
                                     <li><img className="img" src={email} alt="" />   <a href="#">info@nsl-me.com</a></li>
                                 </ul>
                             </div>
