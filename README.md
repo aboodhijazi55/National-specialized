@@ -1,7 +1,7 @@
 # Project NSL
 
 ## Overview
-Project NSL is a web application designed to [brief description of what the app does]. This project aims to [purpose or goal of the project].
+Project NSL is a web application designed to [NSL lab]. This project aims to real project for minral .
 
 ## Features
 - Feature 1: [Description of feature 1]

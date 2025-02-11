@@ -19,9 +19,9 @@ function Footer() {
                         <div class="row">
                             <div class="col-lg-12">
                                 <ul className='ul'>
-                                    <li><img className="img" src={phone} alt="" />  <a href="#">+ 962 6 420 2732</a></li>
-                                    <li><img className="img" src={phone} alt="" />  <a href="#">+ 962 79 1931336</a></li>
-                                    <li><img className="img" src={email} alt="" />   <a href="#">info@nsl-me.com</a></li>
+                                    <li><img className="img" src={phone} alt="" /> + 962 6 420 2732</li>
+                                    <li><img className="img" src={phone} alt="" /> + 962 79 1931336</li>
+                                    <li><img className="img" src={email} alt="" />   info@nsl-me.com</li>
                                 </ul>
                             </div>
                         </div>

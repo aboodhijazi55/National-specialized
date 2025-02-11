@@ -14,7 +14,7 @@ function Fil() {
                 content="الوطنية المنخصصه للمخبرات -Transformer oil filtration -تعتبر عملية فلترت زيوت المحولات عملية صيانة بالغة الأهمية لضمان كفاءة وموثوقية محولات الطاقة." />
             <title>NSL -Oil Filtration </title>
             <div class="test-banner">
-                <img src={bac} alt="" className='bac-test' />
+                <img src="https://res.cloudinary.com/di0a0utla/image/upload/v1739274711/nsl/ltpe1iakxejludbqul33.jpg" alt="" className='bac-test' />
                 <div class="container">
                     <div class="row">
 

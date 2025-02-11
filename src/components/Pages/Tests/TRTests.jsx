@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react'
 import "./TRTests.css"
-import bac from "../../../assets/img/lab/kai-dahms-217U8oxGoQ4-unsplash.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFlask } from '@fortawesome/free-solid-svg-icons'
-import { device7, device10, device12, device14, device18 } from "../../Sections/Services/img"
+import { device7, device10, device12, device14 } from "../../Sections/Services/img"
 function TRTests(props) {
 
     useEffect(() => {
@@ -14,7 +13,7 @@ function TRTests(props) {
             content="الوطنية المنخصصه للمخبرات - Transformer oil testing  -  تقوم هذه الاختبارات المتخصص بتقييم جودة وأداء الزيت العازل المستخدم في المحولات، والذي يلعب دورًا حيويًا في التبريد والعزل الكهربائي"></meta>
         <title>NSL -TR Oil Testing</title>
         <div class="test-banner">
-            <img src={bac} alt="" className='bac-test' />
+            <img src="https://res.cloudinary.com/di0a0utla/image/upload/v1739274711/nsl/ltpe1iakxejludbqul33.jpg" alt="" className='bac-test' />
             <div class="container">
                 <div class="row">
 
