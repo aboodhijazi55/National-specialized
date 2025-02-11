@@ -4,6 +4,7 @@ import "./App.css"
 import React from 'react'
 import { Header, Footer } from "./components/index"
 import { Home, TRTests, Fil, LubeTests, FuelTests } from "./components/Pages"
+
 export const App = () => {
     return <>
         <Router>
@@ -14,7 +15,7 @@ export const App = () => {
                 <Route path="/TRTests" element={<TRTests />} />
                 <Route path="/LubeTests" element={<LubeTests />} />
                 <Route path="/FuelTests" element={<FuelTests />} />
-                <Route path="/Fil" element={<Fil />} />
+                <Route path="/Filtration" element={<Fil />} />
             </Routes>
             {/* </Container> */}
             <Footer />

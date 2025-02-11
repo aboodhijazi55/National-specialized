@@ -11,7 +11,9 @@ function FuelTests() {
         window.scrollTo(0, 0);
     }, []);
     return <>
-
+        <meta name="description"
+            content="الوطنية المنخصصه للمخبرات - Fuel Testing - يعد الاختبار ضروريًا لضمان جودة وأداء وسلامة الوقود مثل الديزل والبنزين "></meta>
+        <title>NSL -Fuel Testing</title>
         <div class="test-banner">
             <img src={bac} alt="" className='bac-test' />
             <div class="container">

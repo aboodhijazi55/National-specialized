@@ -10,6 +10,9 @@ function Fil() {
 
     return (
         <>
+            <meta name="description"
+                content="الوطنية المنخصصه للمخبرات -Transformer oil filtration -تعتبر عملية فلترت زيوت المحولات عملية صيانة بالغة الأهمية لضمان كفاءة وموثوقية محولات الطاقة." />
+            <title>NSL -Oil Filtration </title>
             <div class="test-banner">
                 <img src={bac} alt="" className='bac-test' />
                 <div class="container">
@@ -32,6 +35,8 @@ function Fil() {
                     </div>
                     <div className="container h6">
                         <h6 className='h6'><span>Transformer oil filtration </span>   is a critical maintenance process to ensure the efficiency and reliability of power transformers. It involves removing impurities, moisture, sludge, and dissolved gases that can degrade the oil's insulating and cooling properties. By restoring the oil’s dielectric strength and thermal stability, filtration helps prevent electrical failures, reduces the risk of overheating, and extends the transformer's service life. Regular filtration is essential for minimizing downtime and maintaining safe and efficient operation of electrical systems.</h6>
+
+                        <h5>For more information contact us below 🡳</h5>
                     </div>
 
                 </div>

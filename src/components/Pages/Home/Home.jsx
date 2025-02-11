@@ -23,6 +23,7 @@ function Home() {
     }, [location]);
     return (
         <>
+
             <Banner />
             <Services />
             <AboutUs />

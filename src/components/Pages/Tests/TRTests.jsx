@@ -10,7 +10,9 @@ function TRTests(props) {
         window.scrollTo(0, 0);
     }, []);
     return <>
-
+        <meta name="description"
+            content="الوطنية المنخصصه للمخبرات - Transformer oil testing  -  تقوم هذه الاختبارات المتخصص بتقييم جودة وأداء الزيت العازل المستخدم في المحولات، والذي يلعب دورًا حيويًا في التبريد والعزل الكهربائي"></meta>
+        <title>NSL -TR Oil Testing</title>
         <div class="test-banner">
             <img src={bac} alt="" className='bac-test' />
             <div class="container">

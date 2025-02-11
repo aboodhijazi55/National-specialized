@@ -1,5 +1,5 @@
 export { default as Header } from "./Header/Header"
-export { default as Container } from "./Container/Container"
+
 export { default as Footer } from "./Footer/Footer"
 export { default as Banner } from "./Sections/Banner/Banner"
 export { default as Services } from "./Sections/Services/Services"

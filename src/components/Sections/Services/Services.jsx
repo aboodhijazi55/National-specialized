@@ -47,7 +47,7 @@ function Services() {
             buttonText: "Discover More",
             imgSrc: fillImg,
             iconSrc: filtrationIcon,
-            link: "/Fil"
+            link: "/Filtration"
         },
     ];
 

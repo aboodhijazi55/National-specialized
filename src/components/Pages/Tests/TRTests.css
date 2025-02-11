@@ -130,6 +130,10 @@ h5>span {
     margin-right: 50px;
 }
 
+.container .h6 h5 {
+    text-align: center;
+}
+
 
 @media (width<768px) {
     .row>.container>h1 {

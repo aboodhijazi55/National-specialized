@@ -10,7 +10,9 @@ function LubeTests() {
         window.scrollTo(0, 0);
     }, []);
     return <>
-
+        <meta name="description"
+            content="الوطنية المنخصصه للمخبرات - Fuel Testing - تعتبر عملية اختبار زيت التشحيم عملية أساسية لمراقبة أداء وحالة زيوت التشحيم المستخدمة في الآلات والمحركات."></meta>
+        <title>NSL -Lube Testing</title>
         <div class="test-banner">
             <img src={bac} alt="" className='bac-test' />
             <div class="container">
